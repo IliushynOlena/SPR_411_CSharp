@@ -31,7 +31,30 @@
             YCoord = y;//setY(y);
             count++;
         }
-       
+        //private string type;
+        //public string Type { get; set; }//Auto property
+
+        //Full property
+        private string type;
+
+        public string Type//value
+        {
+            get { return type; }
+            set 
+            { 
+                if(value == "_2D_Object")
+                {
+                    type = value;
+                }
+                
+            }
+        }
+
+
+
+
+
+
 
         //properties 
         //propfull + TAB
